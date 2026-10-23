@@ -8,17 +8,17 @@ The implementation follows dedicated design references and uses a modular projec
 
 ### Desktop
 
-![Dental Care Desktop Preview](./assets/Design/Homepage%20DESKTOP.png)
+![Dental Care Desktop Preview](./assets/Design/homepage-desktop-preview.png)
 
 ### Tablet
 
-![Dental Care Tablet Preview](./assets/Design/Homepage%20TABLET.png)
+![Dental Care Tablet Preview](./assets/Design/homepage-tablet-preview.png)
 
 ### Mobile
 
-![Dental Care Mobile Preview](./assets/Design/Homepage%20MOBILE.png)
+![Dental Care Mobile Preview](./assets/Design/homepage-mobile-preview.png)
 
-> Place the three reference screenshots in the `screenshots/` directory using the filenames shown above.
+> The three reference screenshots are stored in `assets/Design/`.
 
 ## Technology Stack
 
@@ -45,13 +45,13 @@ The implementation follows dedicated design references and uses a modular projec
 ├── vite.config.js
 ├── eslint.config.js
 ├── public/
-│   ├── favicon.svg
-│   └── icons.svg
+│   ├── dental-care-favicon.svg
+│   └── icon-sprite.svg
 ├── assets/
 │   ├── Design/
-│   │   ├── Homepage DESKTOP.png
-│   │   ├── Homepage MOBILE.png
-│   │   └── Homepage TABLET.png
+│   │   ├── homepage-desktop-preview.png
+│   │   ├── homepage-mobile-preview.png
+│   │   └── homepage-tablet-preview.png
 │   ├── fonts/
 │   ├── icons/
 │   └── images/
