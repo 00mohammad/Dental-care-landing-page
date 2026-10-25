@@ -1,4 +1,5 @@
 /* Reserved for responsive layout rules. */
+
 @media (max-width: 900px) {
   .header__container {
     width: calc(100% - 32px);
