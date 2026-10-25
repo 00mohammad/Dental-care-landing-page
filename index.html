@@ -37,8 +37,39 @@
     <!-- Responsive Styles -->
     <link rel="stylesheet" href="/styles/responsive.css" />
   </head>
-  
-  
+
+  ```html
+  <header class="header">
+    <div class="header__container">
+      <a href="/" class="header__logo" aria-label="Dental Care Home">
+        Dental<span>Care</span>
+      </a>
+
+      <button
+        class="header__menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="header__nav" id="navigation-menu"
+        aria-label="Main navigation">
+        <a href="#home" class="header__link header__link--active">Home</a>
+        <a href="#services" class="header__link">Services</a>
+        <a href="#about" class="header__link">About Us</a>
+        <a href="#testimonials" class="header__link">Testimonials</a>
+        <a href="#contact" class="header__link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="header__cta">Book Appointment</a>
+    </div>
+  </header>
+  ```
 
   <body>
     <script type="module" src="/scripts/main.js"></script>
