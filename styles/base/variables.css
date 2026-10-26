@@ -1,1 +1,74 @@
 /* Reserved for shared design tokens. */
+
+:root {
+  /* Text */
+
+  --text-t500: #142349;
+  --black-soft: #231f20;
+
+  /* Primary */
+
+  --primary-p500: #3366ff;
+  --primary-alt: #386fff;
+
+  /* Secondary */
+
+  --secondary-s500: #45cdf7;
+  --secondary-s200: #c7f0fd;
+
+  /* Accent 01 (orange) */
+
+  --accent-01-a500: #ff9140;
+  --accent-01-alt: #ff9547;
+  --accent-01-a100: #fde5d9;
+
+  /* Accent 02 (yellow) */
+
+  --accent-02-a500: #ffcd4b;
+
+  /* Neutral / Background */
+
+  --white: #ffffff;
+  --bg-offwhite: #fcfcfc;
+  --bg-tersier: #eff6ff;
+  --gray-light: #d9d9d9;
+  --gray: #a7a7a7;
+
+  /* Text */
+
+  --text-t200: #6b7a9e;
+  --text-t300: #475377;
+
+  /* Primary */
+
+  --primary-p100: #d6e4ff;
+  --primary-p200: #adc8ff;
+  --primary-p300: #84a9ff;
+  --primary-p400: #6690ff;
+  --primary-p600: #254edb;
+
+  /* Secondary */
+
+  --secondary-s100: #ffffff;
+  --secondary-s300: #8ee3fa;
+
+  /* Accent 01 */
+
+  --accent-01-a200: #ffcdb0;
+  --accent-01-a600: #c9722f;
+
+  /* Accent 02 */
+
+  --accent-02-a100: #fff6db;
+  --accent-02-a2-100: #fff0cc;
+
+  /* Background */
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #fcfcfc;
+
+  /* Gradients (estimated direction and stops) */
+
+  --gradient-dark-blue: linear-gradient(135deg, #142349 0%, #3366ff 100%);
+  --gradient-light-blue: linear-gradient(180deg, #45cdf7 0%, #ffffff 100%);
+}
