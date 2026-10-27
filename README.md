@@ -4,6 +4,11 @@ A responsive dental clinic landing page designed for desktop, tablet, and mobile
 
 The implementation follows dedicated design references and uses a modular project structure to keep markup, styles, and JavaScript behaviors organized and maintainable.
 
+## 🎨 Design
+
+🔗 Figma Design  
+https://www.figma.com/design/NNURGt7xNbwzdQDLIwqdaw/Free-Dental-Care-Responsive-Landing-Page--Community-?node-id=0-1&p=f&t=si70hbOdpTDccsEJ-0
+
 ## Preview
 
 ### Desktop
